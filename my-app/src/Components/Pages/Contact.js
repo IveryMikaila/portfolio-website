@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
+import '../../Styles/Contact.css'
 
 const Contact = () => {
 
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
       event.preventDefault();
@@ -30,15 +31,19 @@ const Contact = () => {
 
   return (
     <div>
-        <h1>Let's Chat!</h1>
+      
         <div className='contact-page'>
         <div className='form'>
+        <h1 className='contact-heading'>Let's Work Together</h1>
         <form onSubmit={onSubmit}>
-        <input type="text" name="name" required/>
-        <input type="email" name="email" required/>
-        <textarea name="message" required></textarea>
+            <label for="name">What's your name?</label>
+        <input type="text" name="name" placeholder='John Doe' required/>
+        <label for="email">What's your email?</label>
+        <input type="email" name="email" placeholder='john@doe.com' required/>
+        <label for="message">Your message</label>
+        <textarea name="message" required placeholder='Hello Mikaila, can you help me with...'></textarea>
 
-        <button type="submit">Submit Form</button>
+        <button type="submit">Submit</button>
 
       </form>
       <span>{result}</span>

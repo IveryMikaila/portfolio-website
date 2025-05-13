@@ -23,8 +23,3 @@ font-family: Arial Black, Helvetica, sans-serif;
 .nav-link:hover{
     text-decoration: underline;
 }
-/* @media screen and (max-width: 600px) {
- .hamburger-container{
-    display: block;
- }
-  } */

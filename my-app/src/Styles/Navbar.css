@@ -2,6 +2,7 @@
 .hamburger-container{
     position: relative;
     z-index: 11;
+    margin: 30px 5px;
 }
 .nav-menu{
 background-color: black;
@@ -13,12 +14,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-font-family: Arial Black, Helvetica, sans-serif;
+font-family:  Helvetica, sans-serif;
+font-weight: lighter;
 }
 .nav-link{   
     color: white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
+    margin: 30px 0px;
 }
 .nav-link:hover{
     text-decoration: underline;

@@ -1,0 +1,27 @@
+
+.hamburger-container{
+    z-index: 11;
+    position: relative;
+}
+.nav-menu{
+background-color: black;
+position: fixed;
+top: 0; bottom: 0; left: 0; right: 0;
+z-index: 10;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Arial Black, Helvetica, sans-serif;
+
+}
+.nav-link{   
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    /* transition: all 10ms ease-in-out; */
+}
+.nav-link:hover{
+    text-decoration: underline;
+}

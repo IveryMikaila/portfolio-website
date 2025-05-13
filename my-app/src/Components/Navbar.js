@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
+import '../Styles/Navbar.css'
 
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
 
  function NavOpen (){
 return(<>
-<div>
- <a href='/'>Home</a>
- <a href='/work'>Work</a>
- <a href='/contact'>Contact</a>
+<div className='nav-menu'>
+ <a className='nav-link' href='/'>Home</a>
+ <a  className='nav-link' href='/work'>Work</a>
+ <a  className='nav-link' href='/contact'>Contact</a>
 </div>
 </>)
 
@@ -20,9 +21,13 @@ return(<>
   return (
     <div>
 
+<div className='hamburger-container'>
+<Hamburger toggled={isOpen} toggle={setOpen} color='white' />
+</div>
 
-<Hamburger toggled={isOpen} toggle={setOpen} className='nav-hamburger' />
 {isOpen ? <NavOpen /> : <div style={{display:"none"}}></div> }
+
+
 
     </div>
   )

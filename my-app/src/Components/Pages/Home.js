@@ -7,8 +7,8 @@ const Home = () => {
 <h1>Mikaila Ivery</h1>
 <div className='home-bio' >Graphic Design, Code, Art. </div>
 <ul>
-    <li><a className='home-link' href='/work'>Work</a></li>
-    <li><a className='home-link' href='/#about'>About</a></li>
+    <li><a className='home-link' href='/work#work'>Work</a></li>
+    <li><a className='home-link' href='/work#about'>About</a></li>
     <li><a className='home-link' href='/contact'>Contact</a></li>
 </ul>
     </div>

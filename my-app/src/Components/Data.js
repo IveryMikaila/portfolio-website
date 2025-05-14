@@ -1,5 +1,5 @@
 import React from 'react'
-import {webDesignAsset} from '../assets/webdesign_WaistAwaybyMoojy.mov'
+import webDesignAsset from '../assets/webdesign_WaistAwaybyMoojy.mov'
 
 export let data = {
 

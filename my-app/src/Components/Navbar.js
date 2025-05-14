@@ -24,7 +24,7 @@ hamburger.style.display="none"
 return(<>
 <div className='nav-menu'>
  <a className='nav-link' href='/'>Home</a>
- <a  className='nav-link' href='/work'>Work</a>
+ <a  className='nav-link' href='/work#work'>Work</a>
  <a  className='nav-link' href='/contact'>Contact</a>
 </div>
 </>)

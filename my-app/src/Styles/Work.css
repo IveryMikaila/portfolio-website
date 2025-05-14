@@ -30,3 +30,17 @@
 }
 
 /* Responsive Code */
+@media screen and (max-width: 900px) {
+.skills-container{
+    flex-direction: column;
+}
+.about-section, .work-section{
+    width: 85%;
+}
+  }
+
+  @media screen and (max-width: 600px) {
+.about-section, .work-section{
+    width: 95%;
+}
+  }

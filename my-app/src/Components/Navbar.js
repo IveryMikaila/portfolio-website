@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
@@ -23,9 +23,9 @@ hamburger.style.display="none"
  function NavOpen (){
 return(<>
 <div className='nav-menu'>
- <a className='nav-link' href='/'>Home</a>
- <a  className='nav-link' href='/work#work'>Work</a>
- <a  className='nav-link' href='/contact'>Contact</a>
+ <Link reloadDocument className='nav-link' to='/'>Home</Link>
+ <Link reloadDocument className='nav-link' to='/work#work'>Work</Link>
+ <Link reloadDocument className='nav-link' to='/contact'>Contact</Link>
 </div>
 </>)
 

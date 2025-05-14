@@ -1,11 +1,19 @@
 import React from 'react'
 import {data} from '../Data'
 import '../../Styles/Work.css'
+import { motion } from "framer-motion";
 
 const Work = () => {
  
 
   return (
+       <motion.div
+              key="page"
+              initial={{ x: "20%", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: "-20%", opacity: 0, transition: { duration: 0.2 } }}
+              transition={{ delay: 0, duration: 0.2 }}
+            >
     <div className='work-page-container'>
 
       {/* About */}
@@ -45,6 +53,7 @@ const Work = () => {
 </div>
 
     </div>
+    </motion.div>
   )
 }
 

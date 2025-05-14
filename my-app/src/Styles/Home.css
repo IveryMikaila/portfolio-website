@@ -41,7 +41,7 @@ margin-bottom: 0;
 }
 
 .home-link:hover{
-    font-size: 27px
+ text-decoration: underline;
 }
 
 /* Responsive Code */

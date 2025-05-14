@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import '../../Styles/Contact.css'
+import { motion } from "framer-motion";
 
 const Contact = () => {
 
@@ -30,6 +31,13 @@ const Contact = () => {
     };
 
   return (
+         <motion.div
+          key="page"
+          initial={{ x: "20%", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: "-20%", opacity: 0, transition: { duration: 0.2 } }}
+          transition={{ delay: 0, duration: 0.2 }}
+        >
     <div>
       <div className='contact-page-container'>
         <div className='contact-page'>
@@ -59,13 +67,17 @@ const Contact = () => {
 <h3>Social Media </h3>
 <ul>
     <li><a href='https://www.instagram.com/fkamynk/' target='_blank'>Instagram</a></li>
-    <li><a href='https://www.pinterest.com/fkamynk/_pins/' target='_blank'>Pinterest</a></li>
-    <li><a href='https://www.youtube.com/@Fkamynk' target='_blank'>YouTube</a></li>
+     <li><a href='https://www.pinterest.com/fkamynk/_pins/' target='_blank'>Pinterest</a></li>
+        <li><a href='https://www.youtube.com/@Fkamynk' target='_blank'>YouTube</a></li>
+        <li><a href='https://www.linkedin.com/in/mikaila-ivery-259218223/' target='_blank'>LinkedIn</a></li>
+   <li><a href='https://github.com/IveryMikaila' target='_blank'>GitHub</a></li>
+      
 </ul>
 </div>
         </div>
         </div>
     </div>
+    </motion.div>
   )
 }
 

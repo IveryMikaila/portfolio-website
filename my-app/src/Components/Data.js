@@ -1,5 +1,5 @@
 import React from 'react'
-import webDesignAsset from '../assets/webdesign_WaistAwaybyMoojy.mov'
+// import webDesignAsset from '../assets/webdesign_WaistAwaybyMoojy.mov'
 
 export let data = {
 
@@ -7,7 +7,7 @@ export let data = {
     Skills:['Adobe InDesign', 'Adobe Illustrator','Adobe Photoshop','HTML','CSS',
 'JavaScript', 'React.js', 'Editorial Layout Design', 'Typography & Typesetting','Print & Digital Publication Design','Color Theory & Composition','Art Direction','Attention to Detail', 'Time Management','Creative Problem Solving'],
 Personal: "In my free time, I enjoy reading, playing video games, and of course, creating art. I specialize in realistic portraiture mainly in two mediums, oil paint and graphite.",
-webDesignAssets:`${webDesignAsset}`, 
+webDesignAssets:``, 
 graphicDesignAssets:[],
 
 }

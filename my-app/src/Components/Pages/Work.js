@@ -51,14 +51,15 @@ const Work = () => {
 <div className='work-section'>
 <h3 id='work'>To see more of my work, keep scrolling. </h3>
 
-<div className='work-card'>
 <h1>Art Direction/Design for Small Hours Magazine </h1>
-</div>
+<div className='work-img img-one'>*Coming Soon*</div>
+<div className='work-img img-two'></div>
 
-<div className='work-card'>
-<h1>Web Design/Front-End Development for Waist Away by Moojy</h1>
-</div>
 
+
+<h1>Web Design/Code for Waist Away by Moojy</h1>
+<div className='work-img img-three'>*Coming Soon*</div>
+<div className='work-img img-four'></div>
 </div>
 
     </div>

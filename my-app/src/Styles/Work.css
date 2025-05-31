@@ -1,3 +1,5 @@
+/* About Section Styles */
+
 .work-page-container{
     margin: 50px;
     display: flex;
@@ -23,6 +25,8 @@
 }
 .work-section{
     width: 60%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .work-section h3{
     font-family: Arial Black, Helvetica, sans-serif;
@@ -44,3 +48,36 @@
     width: 95%;
 }
   }
+
+  /* Work Section Styles */
+
+  .work-section h1{
+    font-family: Arial Black, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+      animation: autoShow both;
+    animation-timeline: view(70% 5%);
+  }
+
+/* .work-img{
+    background-position: center;
+ width: 100%;
+      height: 60dvh;
+       background-repeat: no-repeat;
+    background-size: contain;
+  
+} */
+@keyframes autoShow{
+
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    } to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+

@@ -1,6 +1,6 @@
 
 .home-page{
-    background-image: url('../assets/placeholder-image.jpg');
+    background-image: url('../assets/home_image.png');
     background-repeat: no-repeat; background-size: cover; background-position: center;
     display: flex;
     flex-direction: column;
